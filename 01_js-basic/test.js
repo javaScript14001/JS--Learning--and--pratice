@@ -1,0 +1,1 @@
+console.log("JavaScript Learning and pratice")
