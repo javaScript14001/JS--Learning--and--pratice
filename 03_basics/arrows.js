@@ -6,7 +6,7 @@
 
     welcomecomapanymessage: function employee() {
         console.log(`${this.name} welocme to google company have a nice day`);
-        // console.log(this);
+        console.log(this);
     }
 
 }
@@ -15,24 +15,24 @@
 // company.name = "france";
 // company.welcomecomapanymessage();
 
-console.log(this);
+// console.log(this);*/
 
 
-// =================THIS KEYWORD IS NOT ALLOW IN FUNCTION ONLY ALLOW WITH OBJECT================
+// ================= THIS KEYWORD IS NOT ALLOW IN FUNCTION ONLY ALLOW WITH OBJECT ================
 
-function example(){
+/*function example(){
     const nam ="pratham suthar";
-    // console.log(this.nam);
-    console.log(nam);
+    console.log(this.nam);
+    // console.log(nam);
 }
 
 example();*/
-
-// ===========================Arrows function=========================================
+/*
+// =========================== Arrows function =========================================
 
 // syntax------->
 
-// varibale = (par1,par2) => {}
+// variable = (par1,par2) => {}
 
 // Explicant arrows function 
 const value = (num1, num2) => {
@@ -45,7 +45,7 @@ console.log(value(5, 7));
 const jom = (num1, num2) => (num1 + num2);
 console.log(jom(4, 5));
 
-
+*/
 // Arrows function with object used
 const tom = (num1, num2) => ({ 
     username: "pratham",
@@ -53,3 +53,4 @@ const tom = (num1, num2) => ({
  });
  
  console.log(tom(1,5));
+//  console.log(tom.username);
